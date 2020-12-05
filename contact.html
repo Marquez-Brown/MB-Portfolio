@@ -22,13 +22,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="./index.html">About</a>
                 </li>
               </ul>
@@ -42,13 +42,31 @@
                     <div class="jumbotron bg-white">
                         <h1 class="display-4 text-info">About Me</h1>
                         <hr class="my-4">
-                        <!-- img row -->
-                        <div class="row">
-                        <div class="col-md-12">
-                        <img src="http://placeimg.com/150/150/any" alt="random img" class="thumbnail">
-                      
-                         <p class="text-wrap">This blog section is about me and my coding journey learning tons of stuff about code.  I love to code.  Its my new favorite hobby.  I cant wait to start making excellent websites with my new found knowledge.  I will practice everyday until im good at it.</p>
-                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet doloribus sapiente placeat voluptatibus exercitationem delectus excepturi mollitia vel dolor, numquam laboriosam nobis totam odit. Iure eum nemo, ex doloremque perferendis, soluta mollitia ab impedit tempora voluptatum reiciendis accusamus porro beatae? Nemo amet quaerat itaque earum soluta optio ipsum repellat nisi! Tenetur eaque fuga veniam vitae provident modi explicabo voluptatem consequatur vero ipsam. Quam tempore ratione pariatur vel, aspernatur ducimus repudiandae voluptas architecto perferendis suscipit fugiat ut quisquam molestias, minima saepe totam unde ab fuga soluta, labore id sint. Pariatur, illo a! Soluta quos omnis iste blanditiis ut fuga voluptatibus accusamus.</p>
+                        <!-- Form -->
+                        <!-- Name -->
+                        <form class="needs-validation" novalidate>
+                          <div class="form-row">
+                            <div class="col-9">
+                              <label for="validationCustom01">Name</label>
+                              <input type="text" class="form-control" id="validationCustom01" value="Name" >
+                              <div class="valid-feedback">
+                              </div>
+                              <!-- Email -->
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="Email">
+                                <small id="emailHelp" class="form-text text-muted"> </small>
+                                <!-- Message box -->
+                                <div class="mb-3">
+                                  <label for="validationTextarea">Message</label>
+                                  <textarea class="form-control" id="validationTextarea" placeholder="Message"></textarea>
+                                  <div class="invalid-feedback">
+                                  </div>
+                              </div>
+                              <!-- Submit Button -->
+                              <button class="btn btn-primary btn btn-info" type="submit">Submit</button>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       </div>
