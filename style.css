@@ -12,3 +12,13 @@ h1 {
 #name {
     font-family: 'Playfair Display', serif;
 }
+footer {
+    border-top: 5px solid rgb(23,162,184);
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        margin-right: 5%;
+    }
+   
+    }
