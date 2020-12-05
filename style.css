@@ -1,2 +1,14 @@
 body {background-image: url(./Assets/Images/stretchbaby.png) ;
 }
+
+img {float: left;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    
+}
+#name {
+    font-family: 'Playfair Display', serif;
+}
